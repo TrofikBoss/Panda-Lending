@@ -1,0 +1,78 @@
+@font-face {
+    font-family: "Archivo";
+    src: url(/fonts/Archivo.ttf);
+}
+body {
+    margin: 0px;
+    background-color: #F8FAFC;
+    background-image: url(/img/Flag.png), url(/img/Chart\ Diagram\ Light.png), url(/img/Kanban\ Card\ Dark\ 1.png), url(/img/Desktop.png), url(/img/Card\ Statistics\ Dark.png);
+    background-size: 228px, 282px, 318px, 1055px, 274px;
+    background-position-x: 36.6%, 37%, 55%, 150%, 36%;
+    background-position-y: 100.3%, 180%, 435%, 10%, 82%;
+    background-repeat: no-repeat;
+}
+.logo {
+    width: 221px;
+    margin-bottom: 53px;
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1168px;
+    width: 1168px;
+    display: flex;
+    margin-top: 48px;
+}
+.container__left {
+    display: flex;
+    flex-direction: column;
+    width: 516px;
+}
+h1, h2, p, li {
+    font-family: "Archivo";
+    margin: 0px;
+    color: #475569;
+}
+.blue {
+    color: #3B82F6;
+}
+h1 {
+    font-size: 32px;
+    font-weight: 500;
+}
+ul {
+    margin-top: 32px;
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+li {
+    height: 34px;
+    font-size: 20px;
+    padding-left: 40px;
+    list-style: none;
+    margin-top: 22px;
+    background-image: url(/img/Union.svg);
+    background-repeat: no-repeat;
+    background-position: 0% 50%;
+    background-size: 26px;
+    display: flex;
+    align-items: center;
+}
+.url1, .url2 {
+    width: 104px;
+    height: 66px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.url {
+    display: flex;
+    flex-direction: row;
+    margin-left: -12px;
+    margin-top: 70px;
+}
+.url1 {
+    background-image: url(/img/Frame\ 12.png);
+}
+.url2 {
+    background-image: url(/img/Frame\ 11.png);
+}
